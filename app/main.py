@@ -72,3 +72,9 @@ def check_eligibility(req: EligibilityRequest):
         "final_results": [r.model_dump() for r in result.get("final_results", [])],
         "audit_log": result.get("audit_log", []),
     }
+
+@app.post("/admin/ingest-schemes")
+def ingest_schemes_endpoint():
+    from app.core.vectorstore import ingest_schemes
+    count = ingest_schemes()
+    return {"status": "ok", "documents_ingested": count}
