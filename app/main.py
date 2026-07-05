@@ -25,7 +25,7 @@ init_db()
 # Allow the Next.js frontend (local dev + later Vercel) to call this API
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # tighten this to your actual Vercel domain once deployed
+    allow_origins=["https://scheme-navigator-frontend.vercel.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
