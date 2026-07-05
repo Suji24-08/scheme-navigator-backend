@@ -1,4 +1,4 @@
-# from fastapi import FastAPI
+﻿# from fastapi import FastAPI
 # from app.core.config import settings
 
 # app = FastAPI(title="Scheme Navigator")
@@ -7,9 +7,10 @@
 # def health():
 #     return {"status": "ok", "mock_mode": settings.MOCK_MODE}
 
+import os
 from typing import Optional
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -74,7 +75,9 @@ def check_eligibility(req: EligibilityRequest):
     }
 
 @app.post("/admin/ingest-schemes")
-def ingest_schemes_endpoint():
+def ingest_schemes_endpoint(x_admin_secret: str = Header(None)):
+    if x_admin_secret != os.environ.get("ADMIN_SECRET"):
+        raise HTTPException(status_code=403, detail="Forbidden")
     from app.core.vectorstore import ingest_schemes
     count = ingest_schemes()
     return {"status": "ok", "documents_ingested": count}
