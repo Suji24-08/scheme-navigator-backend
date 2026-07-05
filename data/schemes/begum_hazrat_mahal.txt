@@ -1,0 +1,23 @@
+SCHEME NAME: Begum Hazrat Mahal National Scholarship (formerly Maulana Azad Scholarship for Girls)
+ADMINISTERING BODY: Maulana Azad Education Foundation (MAEF), Ministry of Minority Affairs
+SCHEME TYPE: National-level scholarship, girls-only
+
+OBJECTIVE: Financially support meritorious girl students from minority communities to complete schooling without financial hardship.
+
+ELIGIBILITY CRITERIA:
+- Applicant must be a GIRL student (this scheme is exclusively for female students)
+- Must belong to a notified minority community: Muslim, Christian, Sikh, Buddhist, Jain, or Parsi
+- Must be studying in Class 9, 10, 11, or 12
+- Must have secured at least 50% marks or equivalent grade in the previous class
+- Annual family income from all sources must not exceed Rs. 2,00,000
+- Not applicable for studies abroad
+
+BENEFIT AMOUNT: Rs. 5,000/year for Class 9-10; Rs. 6,000/year for Class 11-12 (some sources cite up to Rs. 10,000-12,000 depending on component — verify current year rate on application)
+
+APPLICATION: Maulana Azad Education Foundation portal / National Scholarship Portal, typically open September-October
+
+REQUIRED DOCUMENTS: Income certificate, minority community self-declaration, school verification form, previous class marksheet, Aadhaar, bank details
+
+NOTE FOR SYSTEM: This scheme does not extend beyond Class 12 — if a matched user is already in college, this scheme should NOT be suggested; instead point toward Post-Matric Minority Scholarship or Pragati (if eligible).
+
+SOURCE: Maulana Azad Education Foundation / Ministry of Minority Affairs guidelines, verified June 2026

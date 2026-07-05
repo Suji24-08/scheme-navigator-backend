@@ -1,0 +1,23 @@
+SCHEME NAME: Pradhan Mantri Kaushal Vikas Yojana (PMKVY) — Short Term Training component
+ADMINISTERING BODY: Ministry of Skill Development and Entrepreneurship (MSDE), implemented via National Skill Development Corporation (NSDC)
+SCHEME TYPE: Flagship Skill Development Scheme (not a scholarship — free vocational training program)
+
+OBJECTIVE: Provide free, industry-oriented skill training and certification to unemployed youth, school/college dropouts, and job seekers to improve employability.
+
+ELIGIBILITY CRITERIA:
+- Applicant must be an Indian citizen
+- Age generally 15-45 years for Short Term Training and Special Projects (varies slightly by course)
+- Primarily targets unemployed individuals, school/college dropouts, and job seekers — this is NOT a scheme for currently-enrolled full-time students seeking degree-level support
+- No minimum educational qualification for most courses; some advanced courses require Class 10/12 pass
+- Valid Aadhaar card and linked bank account required
+- Candidate may enroll in only one course under a given cycle
+
+BENEFIT AMOUNT: Training, assessment, and certification are entirely FREE (government-funded). Certified candidates receive a one-time reward of Rs. 500 upon passing assessment. Conveyance support of Rs. 500-1,000/month provided in some urban short-term training programs. Placement assistance offered but not guaranteed (historical placement rate has been below 50%).
+
+TRAINING COMPONENTS: Short-Term Training (STT) for fresh unemployed learners; Recognition of Prior Learning (RPL) for experienced but uncertified workers; Special Projects for vulnerable/targeted groups; On-the-Job Training (OJT)
+
+APPLICATION: Skill India Digital portal (skillindiadigital.gov.in) — find nearest empanelled Training Centre by state/district/sector
+
+NOTE FOR SYSTEM: This scheme does NOT provide direct cash scholarships for education — it is a training/certification program appropriate for unemployed users seeking job-ready skills rather than users seeking to fund ongoing formal education. Do not present this as equivalent to a scholarship when responding to a user; clarify it is free skill training instead.
+
+SOURCE: Ministry of Skill Development and Entrepreneurship / NSDC guidelines, verified June 2026

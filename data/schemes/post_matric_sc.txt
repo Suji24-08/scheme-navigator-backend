@@ -1,0 +1,22 @@
+SCHEME NAME: Post-Matric Scholarship Scheme for Scheduled Caste (SC) Students
+ADMINISTERING BODY: Ministry of Social Justice and Empowerment, Government of India
+SCHEME TYPE: Centrally Sponsored Scheme
+
+OBJECTIVE: Enhance access to post-secondary/higher education for Scheduled Caste students by covering maintenance costs and compulsory institutional fees.
+
+ELIGIBILITY CRITERIA:
+- Applicant must belong to a Scheduled Caste (as recognized in their State/UT of permanent residence)
+- Must have passed Matriculation, Higher Secondary, or an equivalent examination and be pursuing a recognized post-matriculation course (undergraduate, postgraduate, diploma, doctoral, or professional courses including engineering, medicine, law, management)
+- Annual family/guardian income must not exceed Rs. 2,50,000 (this is the current central ceiling; a proposed revision to Rs. 4,50,000 has been announced for implementation from 2026-27 but is not yet confirmed in effect — flag as "verify current limit" if this scheme is matched)
+- Must not be holding any other scholarship or stipend for the same course
+- Must be an Indian national
+
+BENEFIT AMOUNT: Covers maintenance allowance (varies by course level and hosteller/day-scholar status) plus reimbursement of compulsory non-refundable fees; total value typically ranges Rs. 2,500 to Rs. 13,500+ per year depending on course
+
+APPLICATION: National Scholarship Portal (scholarships.gov.in) or respective State/UT portal
+
+REQUIRED DOCUMENTS: Caste certificate, income certificate, educational certificates, Aadhaar, bank passbook
+
+NOTE FOR SYSTEM: Income eligibility limit for this scheme is under active policy revision as of 2026. Any match against this scheme should be flagged for "verify with local office" rather than asserted with full confidence, given the pending change.
+
+SOURCE: Ministry of Social Justice and Empowerment / National Scholarship Portal guidelines, verified June 2026

@@ -1,0 +1,26 @@
+SCHEME NAME: National Fellowship for OBC Students (NF-OBC)
+ADMINISTERING BODY: University Grants Commission (UGC), funded by Ministry of Social Justice and Empowerment
+SCHEME TYPE: Central Sector Fellowship (research-level, not undergraduate)
+
+OBJECTIVE: Provide financial assistance to unemployed OBC candidates to pursue full-time M.Phil./PhD research degrees.
+
+ELIGIBILITY CRITERIA:
+- Applicant must belong to OBC (Non-Creamy Layer) category
+- Must have passed postgraduate examination in the relevant subject
+- Must be unemployed at the time of application
+- Must have qualified UGC-NET-JRF or UGC-CSIR-NET (or equivalent national exam)
+- Must be registered for a regular, full-time M.Phil. or PhD program at a UGC-recognized university/institution, in Sciences, Humanities, Social Sciences, or Engineering & Technology
+- Annual family income must not exceed Rs. 6,00,000 (some more recent sources cite Rs. 8,00,000 — verify current notification before asserting)
+- Must not be receiving any other fellowship or funding simultaneously
+
+BENEFIT AMOUNT: JRF stage: Rs. 25,000-31,000/month (first 2 years) plus HRA; SRF stage: Rs. 28,000-35,000/month (remaining tenure) plus HRA; Contingency grant Rs. 10,000-20,500/year depending on discipline and stage
+
+TOTAL SLOTS: 1,000 fellowships annually (increased from original 300); 3-4% reserved for OBC candidates with disabilities
+
+DURATION: Up to 5 years total (2 years JRF + up to 3 years SRF), or until PhD thesis submission, whichever is earlier
+
+APPLICATION: UGC portal (ugc.gov.in) / NFOBC dedicated portal
+
+NOTE FOR SYSTEM: This is a research fellowship for postgraduate-and-above candidates, NOT an undergraduate scholarship. Only match this scheme to users who have completed a Master's degree and are unemployed/pursuing M.Phil/PhD.
+
+SOURCE: University Grants Commission / Ministry of Social Justice and Empowerment guidelines, verified June 2026

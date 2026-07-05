@@ -1,0 +1,25 @@
+SCHEME NAME: Stand-Up India Scheme
+ADMINISTERING BODY: Small Industries Development Bank of India (SIDBI), Department of Financial Services
+SCHEME TYPE: Credit/loan scheme (NOT a scholarship — for entrepreneurship, not formal education)
+
+OBJECTIVE: Facilitate bank loans to women entrepreneurs and SC/ST individuals to set up new ("greenfield") businesses, addressing lack of access to institutional credit.
+
+ELIGIBILITY CRITERIA:
+- Applicant must be either a WOMAN entrepreneur, OR belong to Scheduled Caste (SC) or Scheduled Tribe (ST) category
+- Must be at least 18 years of age and an Indian citizen
+- The business must be a "greenfield" project — i.e., the applicant's first venture in manufacturing, services, trading, or agri-allied activities (not an existing business, not core agriculture)
+- Must not be in default to any bank or financial institution
+- For non-individual enterprises (partnerships/companies), at least 51% shareholding and control must rest with the eligible SC/ST/woman entrepreneur
+- Business must be registered as an MSME
+
+BENEFIT AMOUNT: Composite bank loan (term loan + working capital) between Rs. 10,00,000 and Rs. 1,00,00,000 (Rs. 10 lakh to Rs. 1 crore), covering up to 75-85% of project cost. Repayable over 7 years with up to 18-month moratorium. Interest capped at bank's MCLR + 3% + tenor premium.
+
+IMPORTANT STATUS NOTE: The original Stand-Up India scheme concluded in March 2025 and is undergoing a government-announced revamp (reported in 2026) expected to raise loan limits up to Rs. 2 crore for women/SC/ST entrepreneurs. Given this transition, any match against this scheme should be flagged "verify current scheme status and terms with your bank" rather than asserted with full confidence.
+
+APPLICATION: standupmitra.in portal, or directly through any Scheduled Commercial Bank branch
+
+REQUIRED DOCUMENTS: Identity/KYC (Aadhaar, PAN), caste certificate (for SC/ST) or gender proof, detailed business project report, incorporation documents, bank statements
+
+NOTE FOR SYSTEM: This scheme is NOT for students pursuing formal education — it is for adults starting a business. Only match this to users who explicitly describe themselves as wanting to start a business, not students seeking education funding.
+
+SOURCE: SIDBI / Department of Financial Services guidelines, verified June 2026; scheme currently under revision as of 2026

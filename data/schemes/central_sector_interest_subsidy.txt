@@ -1,0 +1,27 @@
+SCHEME NAME: Central Sector Interest Subsidy Scheme (CSIS) for Education Loans
+ADMINISTERING BODY: Ministry of Education (formerly Ministry of HRD), implemented via Canara Bank (nodal bank) and JanSamarth Portal
+SCHEME TYPE: Interest subsidy scheme (NOT a scholarship — subsidizes interest on an education LOAN a student has already taken)
+LAUNCHED: 2009
+
+OBJECTIVE: Reduce the financial burden on students from economically weaker sections by covering education loan interest during the moratorium period (study period plus one year, or 6 months after securing a job, whichever is earlier).
+
+ELIGIBILITY CRITERIA:
+- Applicant must be an Indian national from an Economically Weaker Section (EWS)
+- Annual gross parental/family income must not exceed Rs. 4,50,000
+- Applicant must have already taken (or be taking) an education loan under the IBA Model Education Loan Scheme
+- Loan must be for a professional or technical course (UG, PG, or integrated UG+PG) at a NAAC-accredited institution, NBA-accredited program, Institution of National Importance, or Centrally Funded Technical Institution (CFTI) — institutions outside NAAC/NBA require separate regulatory approval
+- Applicable ONLY for study within India — does NOT cover study abroad
+- Benefit available only ONCE per student (either for UG or PG, not both separately, though integrated courses qualify as one benefit)
+- Student must not be receiving another central/state scholarship or fee reimbursement for the same course
+
+BENEFIT AMOUNT: Full interest subsidy on the education loan during the moratorium period, capped at a loan principal of Rs. 10,00,000 (loans larger than this only get subsidy on the first Rs. 10 lakh)
+
+DISCONTINUATION CONDITIONS: Subsidy stops if the student discontinues the course midstream or is expelled for disciplinary/academic reasons (exception made for documented medical grounds)
+
+APPLICATION: Apply through the JanSamarth Portal (jansamarth.in) or directly through the bank that disbursed the education loan
+
+REQUIRED DOCUMENTS: Income certificate from competent authority, education loan sanction documents, admission proof
+
+NOTE FOR SYSTEM: This scheme requires the user to ALREADY have or be taking an education loan — it is not a standalone source of funding. When matched, the system should clarify this is a loan interest subsidy, not free money, and should be paired with an explanation that a loan application is a prerequisite.
+
+SOURCE: Ministry of Education / JanSamarth Portal guidelines, verified June 2026

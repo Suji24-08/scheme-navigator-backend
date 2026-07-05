@@ -1,0 +1,33 @@
+import json
+from app.core.config import settings
+
+if not settings.MOCK_MODE:
+    from langchain_openai import ChatOpenAI
+    _llm = ChatOpenAI(model="gpt-4o-mini", api_key=settings.OPENAI_API_KEY, temperature=0)
+else:
+    _llm = None
+
+
+def call_llm_json(prompt: str, mock_response: dict) -> dict:
+    """
+    Calls the LLM and expects a JSON object back.
+    In MOCK_MODE, returns mock_response untouched (no API call made).
+    Caller is responsible for providing a realistic mock_response per use site.
+    """
+    if settings.MOCK_MODE:
+        print("[llm_client] MOCK_MODE on — skipping real API call")
+        return mock_response
+
+    response = _llm.invoke(prompt)
+    text = response.content.strip()
+
+    # Defensive parsing — real LLM output isn't always clean JSON
+    if text.startswith("```"):
+        text = text.strip("`")
+        if text.startswith("json"):
+            text = text[4:]
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError as e:
+        print(f"[llm_client] Failed to parse LLM output as JSON: {e}")
+        return {"error": "malformed_llm_output", "raw": text}

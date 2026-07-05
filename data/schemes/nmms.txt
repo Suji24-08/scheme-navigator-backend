@@ -1,0 +1,25 @@
+SCHEME NAME: National Means-cum-Merit Scholarship Scheme (NMMSS)
+ADMINISTERING BODY: Ministry of Education, Government of India
+SCHEME TYPE: Centrally Sponsored Scheme
+LAUNCHED: 2008
+
+OBJECTIVE: Provide financial assistance to meritorious students from economically weaker sections to prevent dropout after Class 8 and support continuation through secondary education (Class 9-12).
+
+ELIGIBILITY CRITERIA:
+- Student must be studying in Class 8 in a Government, Government-aided, or Local Body school
+- Annual family/parental income from all sources must not exceed Rs. 3,50,000
+- Must score minimum 55% marks in Class 7 examination (relaxable to 50% for SC/ST students)
+- Must pass a selection test (Mental Ability Test + Scholastic Aptitude Test) conducted by the respective State/UT, with minimum 40% aggregate (32% for SC/ST students)
+- Students studying in Kendriya Vidyalayas, Jawahar Navodaya Vidyalayas, or private schools are NOT eligible
+- Students already receiving any other Central Government scholarship are NOT eligible
+- Not applicable for study abroad, or for diploma/certificate level courses
+
+BENEFIT AMOUNT: Rs. 12,000 per year (Rs. 1,000 per month), disbursed via Direct Benefit Transfer (DBT), available for Class 9 through Class 12 (maximum 4 years)
+
+RENEWAL CONDITIONS: Must be promoted to next class in first attempt each year; minimum 60% marks in Class 10 (55% for SC/ST) required to continue into Class 11-12
+
+APPLICATION: National Scholarship Portal (scholarships.gov.in)
+
+REQUIRED DOCUMENTS: Income certificate, Class 7/8 mark sheet, caste certificate (if applicable), disability certificate (if applicable), proof of residence, bank account details
+
+SOURCE: Ministry of Education / National Scholarship Portal guidelines, verified June 2026
