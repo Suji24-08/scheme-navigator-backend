@@ -1,12 +1,28 @@
+# import json
+# from app.core.config import settings
+
+# if not settings.MOCK_MODE:
+#     from langchain_openai import ChatOpenAI
+#     _llm = ChatOpenAI(model="gpt-4o-mini", api_key=settings.OPENAI_API_KEY, temperature=0)
+# else:
+#     _llm = None
+
+
 import json
 from app.core.config import settings
 
+_llm = None
 if not settings.MOCK_MODE:
-    from langchain_openai import ChatOpenAI
-    _llm = ChatOpenAI(model="gpt-4o-mini", api_key=settings.OPENAI_API_KEY, temperature=0)
-else:
-    _llm = None
-
+    if settings.LLM_PROVIDER == "gemini":
+        from langchain_google_genai import ChatGoogleGenerativeAI
+        _llm = ChatGoogleGenerativeAI(
+            model="gemini-1.5-flash",
+            google_api_key=settings.GOOGLE_API_KEY,
+            temperature=0,
+        )
+    else:
+        from langchain_openai import ChatOpenAI
+        _llm = ChatOpenAI(model="gpt-4o-mini", api_key=settings.OPENAI_API_KEY, temperature=0)
 
 def call_llm_json(prompt: str, mock_response: dict) -> dict:
     """

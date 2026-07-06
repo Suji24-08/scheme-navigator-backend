@@ -12,5 +12,6 @@ class Settings:
 
     # This is the important one for the next 2 days:
     MOCK_MODE = os.getenv("MOCK_MODE", "true").lower() == "true"
+    LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openai").lower()
 
 settings = Settings()
