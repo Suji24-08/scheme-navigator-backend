@@ -16,7 +16,7 @@ if not settings.MOCK_MODE:
     if settings.LLM_PROVIDER == "gemini":
         from langchain_google_genai import ChatGoogleGenerativeAI
         _llm = ChatGoogleGenerativeAI(
-            model="gemini-1.5-flash",
+            model="gemini-2.5-flash",
             google_api_key=settings.GOOGLE_API_KEY,
             temperature=0,
         )
