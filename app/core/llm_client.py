@@ -31,3 +31,15 @@ def call_llm_json(prompt: str, mock_response: dict) -> dict:
     except json.JSONDecodeError as e:
         print(f"[llm_client] Failed to parse LLM output as JSON: {e}")
         return {"error": "malformed_llm_output", "raw": text}
+    
+def call_llm_text(prompt: str, mock_answer: str) -> str:
+    """
+    Calls the LLM and expects plain text back (not JSON).
+    In MOCK_MODE, returns mock_answer untouched (no API call made).
+    """
+    if settings.MOCK_MODE:
+        print("[llm_client] MOCK_MODE on — skipping real API call")
+        return mock_answer
+
+    response = _llm.invoke(prompt)
+    return response.content.strip()

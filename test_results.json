@@ -1,0 +1,72 @@
+﻿[
+    {
+        "Input":  "I am SC category, studying, family income 1.5 lakh per year",
+        "OnTopic":  "true",
+        "RefusalMessage":  null,
+        "NumResults":  3,
+        "Schemes":  "top_class_education_sc, national_overseas_scholarship, post_matric_sc"
+    },
+    {
+        "Input":  "I am general category, employed, family income 12 lakh per year",
+        "OnTopic":  "true",
+        "RefusalMessage":  null,
+        "NumResults":  1,
+        "Schemes":  "top_class_education_sc"
+    },
+    {
+        "Input":  "I am OBC category with a disability, currently studying",
+        "OnTopic":  "true",
+        "RefusalMessage":  null,
+        "NumResults":  1,
+        "Schemes":  "top_class_education_sc"
+    },
+    {
+        "Input":  "I am ST category, senior citizen aged 65, family income 80000 per year",
+        "OnTopic":  "true",
+        "RefusalMessage":  null,
+        "NumResults":  1,
+        "Schemes":  "top_class_education_sc"
+    },
+    {
+        "Input":  "I am Muslim minority community, studying, low income family",
+        "OnTopic":  "true",
+        "RefusalMessage":  null,
+        "NumResults":  1,
+        "Schemes":  "top_class_education_sc"
+    },
+    {
+        "Input":  "I am general category, working as a teacher, not a student",
+        "OnTopic":  "true",
+        "RefusalMessage":  null,
+        "NumResults":  1,
+        "Schemes":  "top_class_education_sc"
+    },
+    {
+        "Input":  "I am a student but not sure about my family income",
+        "OnTopic":  "true",
+        "RefusalMessage":  null,
+        "NumResults":  1,
+        "Schemes":  "top_class_education_sc"
+    },
+    {
+        "Input":  "What is the weather like today",
+        "OnTopic":  "false",
+        "RefusalMessage":  "I can only help with questions about government scheme eligibility. Please describe your income, state, occupation, age, or family details so I can check what you may qualify for.",
+        "NumResults":  0,
+        "Schemes":  ""
+    },
+    {
+        "Input":  "What is the capital of France",
+        "OnTopic":  "false",
+        "RefusalMessage":  "I can only help with questions about government scheme eligibility. Please describe your income, state, occupation, age, or family details so I can check what you may qualify for.",
+        "NumResults":  0,
+        "Schemes":  ""
+    },
+    {
+        "Input":  "I need help",
+        "OnTopic":  "false",
+        "RefusalMessage":  "I can only help with questions about government scheme eligibility. Please describe your income, state, occupation, age, or family details so I can check what you may qualify for.",
+        "NumResults":  0,
+        "Schemes":  ""
+    }
+]

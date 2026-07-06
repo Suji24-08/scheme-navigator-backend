@@ -15,22 +15,6 @@ JSON:"""
 def profile_extraction_node(state: GraphState) -> dict:
     prompt = PROMPT_TEMPLATE.format(text=state.raw_input)
 
-    # Realistic mock — simulates a genuinely ambiguous case, not a clean happy path
-    # mock_response = {
-    #     "income_monthly": 15000,
-    #     "income_annual": None,
-    #     "state": "Tamil Nadu",
-    #     "occupation": "daily wage laborer",
-    #     "age": 45,
-    #     "gender": None,
-    #     "family_size": 4,
-    #     "caste_category": None,
-    #     "disability_status": None,
-    #     "is_student": False,
-    #     "ambiguous_fields": ["caste_category", "gender"],
-    #     "extraction_notes": "Caste category not mentioned; relevant for several scholarship/pension schemes."
-    # }
-
     mock_response = _select_mock(state.raw_input)
 
     result = call_llm_json(prompt, mock_response)

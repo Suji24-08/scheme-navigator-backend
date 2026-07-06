@@ -55,6 +55,19 @@ def retrieve_schemes(query_text, n_results=5):
         })
     return candidates
 
+def get_scheme_document(scheme_name: str):
+    """
+    Exact lookup by scheme_name (filename without .txt), no embedding search needed.
+    Returns the document text, or None if not found.
+    """
+    collection = get_collection()
+    doc_id = f"{scheme_name}.txt"
+    result = collection.get(ids=[doc_id])
+
+    if not result["documents"]:
+        return None
+    return result["documents"][0]
+
 if __name__ == "__main__":
     ingest_schemes()
 

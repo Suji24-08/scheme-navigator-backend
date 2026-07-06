@@ -1,13 +1,4 @@
-﻿# from fastapi import FastAPI
-# from app.core.config import settings
-
-# app = FastAPI(title="Scheme Navigator")
-
-# @app.get("/health")
-# def health():
-#     return {"status": "ok", "mock_mode": settings.MOCK_MODE}
-
-import os
+﻿import os
 from typing import Optional
 
 from fastapi import FastAPI, Header, HTTPException
@@ -20,16 +11,36 @@ from app.core.graph import build_graph
 from app.models.schemas import GraphState
 from app.core.audit_db import init_db, save_audit_entry
 
+from app.core.vectorstore import get_scheme_document
+from app.core.llm_client import call_llm_text
+
+
+class FollowupRequest(BaseModel):
+    scheme_name: str
+    question: str
+
+
+class FollowupResponse(BaseModel):
+    answer: str
+
 app = FastAPI(title="Scheme Navigator")
 init_db()
 # Allow the Next.js frontend (local dev + later Vercel) to call this API
+# app.add_middleware(
+#     CORSMiddleware,
+#     allow_origins=["https://scheme-navigator-frontend.vercel.app"],
+#     allow_methods=["*"],
+#     allow_headers=["*"],
+# )
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://scheme-navigator-frontend.vercel.app"],
+    allow_origins=[
+        "https://scheme-navigator-frontend.vercel.app",
+        "http://localhost:3000",
+    ],
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 _graph = build_graph()  # compiled once at startup, reused across requests
 
 
@@ -73,6 +84,34 @@ def check_eligibility(req: EligibilityRequest):
         "final_results": [r.model_dump() for r in result.get("final_results", [])],
         "audit_log": result.get("audit_log", []),
     }
+
+
+@app.post("/ask-followup", response_model=FollowupResponse)
+def ask_followup(req: FollowupRequest):
+    doc_text = get_scheme_document(req.scheme_name)
+
+    if doc_text is None:
+        raise HTTPException(status_code=404, detail="Scheme not found")
+
+    prompt = f"""You are answering a citizen's follow-up question about ONE specific government welfare scheme.
+Use ONLY the information in the scheme text below. Do not use outside knowledge.
+If the answer isn't in the text, say so clearly instead of guessing.
+
+SCHEME TEXT:
+{doc_text}
+
+QUESTION: {req.question}
+
+Answer in 2-4 plain-language sentences."""
+
+    mock_answer = (
+        f"[MOCK] Based on the {req.scheme_name} scheme document, "
+        f"here is a sample answer to: '{req.question}'. "
+        "This is placeholder text since MOCK_MODE is on."
+    )
+
+    answer = call_llm_text(prompt, mock_answer)
+    return {"answer": answer}
 
 @app.post("/admin/ingest-schemes")
 def ingest_schemes_endpoint(x_admin_secret: str = Header(None)):
